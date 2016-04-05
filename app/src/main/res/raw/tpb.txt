@@ -1,0 +1,704 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Pirate Bay - The galaxy's most resilient bittorrent site</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="google-site-verification" content="bERYeomIC5eBWlPLupPPYPYGA9GvAUKzFHh3WIw24Xs" />
+		<script type="text/javascript">
+			//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"93d601cff6bef7b5fe2cbac9d3971af2",petok:"35305da63a05f821f9319c440699802d601c2cde-1458736386-10800",adblock:1,betok:"0e259ab878929b0edd3398536c6a88480b62998f-1458736386-120",zone:"thepiratebay.se",rocket:"0",apps:{},sha2test:0}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e982913d31/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+			//]]>
+		</script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Search The Pirate Bay" />
+		<link rel="stylesheet" type="text/css" href="//thepiratebay.se/static/css/pirate6.css"/>
+		<link rel="dns-prefetch" href="//syndication.exoclick.com/">
+			<link rel="dns-prefetch" href="//main.exoclick.com/">
+				<link rel="dns-prefetch" href="//static-ssl.exoclick.com/">
+					<link rel="dns-prefetch" href="//ads.exoclick.com/">
+						<link rel="canonical" href="//thepiratebay.se/search/Naruto/0/0/0" />
+						<style type="text/css">
+							.searchBox{
+							margin: 6px;
+							width: 300px;
+							vertical-align: middle;
+							padding: 2px;
+							background-image:url('//thepiratebay.se/static/img/icon-https.gif');
+							background-repeat:no-repeat;
+							background-position: right;
+							}
+							.detLink {
+							font-size: 1.2em;
+							font-weight: 400;
+							}
+							.detDesc {
+							color: #4e5456;
+							}
+							.detDesc a:hover {
+							color: #000099;
+							text-decoration: underline;
+							}
+							.sortby {
+							text-align: left;
+							float: left;
+							}
+							.detName {
+							padding-top: 3px;
+							padding-bottom: 2px;
+							}
+							.viewswitch {
+							font-style: normal;
+							float: right;
+							text-align: right;
+							font-weight: normal;
+							}
+						</style>
+						<script src="//thepiratebay.se/static/js/jquery.min.js" type="text/javascript"></script>
+						<script src="//thepiratebay.se/static/js/tpb.js" type="text/javascript"></script>
+						<meta name="description" content="Search for and download any torrent from the pirate bay using search query Naruto. Direct download via magnet link."/>
+						<meta name="keywords" content="Naruto direct download torrent magnet tpb piratebay search"/>
+
+						<script language="javascript" type="text/javascript">if (top.location != self.location) {top.location.replace(self.location);}</script>
+	</head>
+
+	<body>
+		<div id="header">
+
+			<form method="get" id="q" action="/s/">
+				<a href="/" class="img"><img src="//thepiratebay.se/static/img/tpblogo_sm_ny.gif" id="TPBlogo" alt="The Pirate Bay" /></a>
+				<b><a href="/" title="Search Torrents">Search Torrents</a></b>&nbsp;&nbsp;|&nbsp;
+				<a href="/browse" title="Browse Torrents">Browse Torrents</a>&nbsp;&nbsp;|&nbsp;
+				<a href="/recent" title="Recent Torrent">Recent Torrents</a>&nbsp;&nbsp;|&nbsp;
+				<a href="/tv/" title="TV shows">TV shows</a>&nbsp;&nbsp;|&nbsp;
+				<a href="/music" title="Music">Music</a>&nbsp;&nbsp;|&nbsp;
+				<a href="/top" title="Top 100">Top 100</a>
+				<br /><input type="search" class="inputbox" title="Pirate Search" name="q" placeholder="Search here..." value="Naruto" /><input value="Pirate Search" type="submit" class="submitbutton" $disabled /><br />            <label for="audio" title="Audio"><input id="audio" name="audio" onclick="javascript:rmAll();" type="checkbox"/>Audio</label>
+				<label for="video" title="Video"><input id="video" name="video" onclick="javascript:rmAll();" type="checkbox"/>Video</label>
+				<label for="apps" title="Applications"><input id="apps" name="apps" onclick="javascript:rmAll();" type="checkbox"/>Applications</label>
+				<label for="games" title="Games"><input id="games" name="games" onclick="javascript:rmAll();" type="checkbox"/>Games</label>
+				<label for="porn" title="Porn"><input id="porn" name="porn" onclick="javascript:rmAll();" type="checkbox"/>Porn</label>
+				<label for="other" title="Other"><input id="other" name="other" onclick="javascript:rmAll();" type="checkbox"/>Other</label>
+
+				<select id="category" name="category" onchange="javascript:setAll();">
+					<option value="0">All</option>
+					<optgroup label="Audio">
+						<option value="101">Music</option>
+						<option value="102">Audio books</option>
+						<option value="103">Sound clips</option>
+						<option value="104">FLAC</option>
+						<option value="199">Other</option>
+					</optgroup>
+					<optgroup label="Video">
+						<option value="201">Movies</option>
+						<option value="202">Movies DVDR</option>
+						<option value="203">Music videos</option>
+						<option value="204">Movie clips</option>
+						<option value="205">TV shows</option>
+						<option value="206">Handheld</option>
+						<option value="207">HD - Movies</option>
+						<option value="208">HD - TV shows</option>
+						<option value="209">3D</option>
+						<option value="299">Other</option>
+					</optgroup>
+					<optgroup label="Applications">
+						<option value="301">Windows</option>
+						<option value="302">Mac</option>
+						<option value="303">UNIX</option>
+						<option value="304">Handheld</option>
+						<option value="305">IOS (iPad/iPhone)</option>
+						<option value="306">Android</option>
+						<option value="399">Other OS</option>
+					</optgroup>
+					<optgroup label="Games">
+						<option value="401">PC</option>
+						<option value="402">Mac</option>
+						<option value="403">PSx</option>
+						<option value="404">XBOX360</option>
+						<option value="405">Wii</option>
+						<option value="406">Handheld</option>
+						<option value="407">IOS (iPad/iPhone)</option>
+						<option value="408">Android</option>
+						<option value="499">Other</option>
+					</optgroup>
+					<optgroup label="Porn">
+						<option value="501">Movies</option>
+						<option value="502">Movies DVDR</option>
+						<option value="503">Pictures</option>
+						<option value="504">Games</option>
+						<option value="505">HD - Movies</option>
+						<option value="506">Movie clips</option>
+						<option value="599">Other</option>
+					</optgroup>
+					<optgroup label="Other">
+						<option value="601">E-books</option>
+						<option value="602">Comics</option>
+						<option value="603">Pictures</option>
+						<option value="604">Covers</option>
+						<option value="605">Physibles</option>
+						<option value="699">Other</option>
+					</optgroup>
+				</select>
+
+				<input type="hidden" name="page" value="0" />
+				<input type="hidden" name="orderby" value="99" />
+			</form>
+		</div><!-- // div:header -->
+
+		<h2><span>Search results: Naruto</span>&nbsp;Displaying hits from 0 to 30 (approx 41334 found)</h2>
+
+		<div id="SearchResults"><div id="content">                 <script type="text/javascript" src="//thepiratebay.se/static/ads/exo_na_sm/sm6.js"></script>
+				<script> if(getCookie("exo") == null) {
+					document.write(unescape("%3Cdiv id=\"sky-right-sm\"%3E%3Ciframe src=\"//thepiratebay.se/static/ads/exo_na_sm/sky2.html\" width=\"250\" height=\"600\" frameborder=\"0\" scrolling=\"no\"%3E%3C/iframe%3E%3C/div%3E"));
+					} else {
+					document.write(unescape("%3Cdiv id=\"sky-right\"%3E%3Ciframe src=\"//thepiratebay.se/static/ads/exo_na/sky2.html\" width=\"160\" height=\"600\" frameborder=\"0\" scrolling=\"no\"%3E%3C/iframe%3E%3C/div%3E"));
+					} </script>
+				<script> if(getCookie("exo") == null) {
+					document.write(unescape("%3Cscript type=\"text/javascript\" src=\"https://ads.exoclick.com/ads.js\"%3E%3C/script%3E"));
+					document.write(unescape("%3Ciframe src=\"//thepiratebay.se/static/ads/exo_na_sm/center.html\" id=\"sky-center-sm\" width=\"980\" height=\"90\" frameborder=\"0\" scrolling=\"no\"%3E%3C/iframe%3E"));
+					} else {
+					document.write(unescape("%3Ciframe src=\"//thepiratebay.se/static/ads/exo_na/center.html\" id=\"sky-center\" width=\"728\" height=\"90\" frameborder=\"0\" scrolling=\"no\"%3E%3C/iframe%3E"));
+					} </script>
+				<div id="main-content">
+					<table id="searchResult">
+						<thead id="tableHead">
+							<tr class="header">
+								<th><a href="/search/Naruto/0/13/0" title="Order by Type">Type</a></th>
+								<th><div class="sortby"><a href="/search/Naruto/0/1/0" title="Order by Name">Name</a> (Order by: <a href="/search/Naruto/0/3/0" title="Order by Uploaded">Uploaded</a>, <a href="/search/Naruto/0/5/0" title="Order by Size">Size</a>, <span style="white-space: nowrap;"><a href="/search/Naruto/0/11/0" title="Order by ULed by">ULed by</a></span>, <a href="/search/Naruto/0/8/0" title="Order by Seeders">SE</a>, <a href="/search/Naruto/0/9/0" title="Order by Leechers">LE</a>)</div><div class="viewswitch"> View: <a href="/switchview.php?view=s">Single</a> / Double&nbsp;</div></th>
+								<th><abbr title="Seeders"><a href="/search/Naruto/0/8/0" title="Order by Seeders">SE</a></abbr></th>
+								<th><abbr title="Leechers"><a href="/search/Naruto/0/9/0" title="Order by Leechers">LE</a></abbr></th>
+							</tr>
+						</thead>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/401" title="More from this category">PC</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11042546/Naruto.Shippuden.Ultimate.Ninja.Storm.Revolution.Repack-R.G.Mech" class="detLink" title="Details for Naruto.Shippuden.Ultimate.Ninja.Storm.Revolution.Repack-R.G.Mech">Naruto.Shippuden.Ultimate.Ninja.Storm.Revolution.Repack-R.G.Mech</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:14eeae2d92997480e553063eade8352e5ed2ef03&dn=Naruto.Shippuden.Ultimate.Ninja.Storm.Revolution.Repack-R.G.Mech&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 32 comments." title="This torrent has 32 comments." /><a href="/user/Taker009"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a>
+								<font class="detDesc">Uploaded 09-16&nbsp;2014, Size 5.8&nbsp;GiB, ULed by <a class="detDesc" href="/user/Taker009/" title="Browse Taker009">Taker009</a></font>
+							</td>
+							<td align="right">962</td>
+							<td align="right">56</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/207" title="More from this category">HD - Movies</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11847995/The.Last.Naruto.the.Movie.2014.720p.HDRip.850MB.MkvCage.mkv" class="detLink" title="Details for The.Last.Naruto.the.Movie.2014.720p.HDRip.850MB.MkvCage.mkv">The.Last.Naruto.the.Movie.2014.720p.HDRip.850MB.MkvCage.mkv</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:d965009342479bc664a807fb84d2f91b40feeb64&dn=The.Last.Naruto.the.Movie.2014.720p.HDRip.850MB.MkvCage.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDpkOTY1MDA5MzQyNDc5YmM2NjRhODA3ZmI4NGQyZjkxYjQwZmVlYjY0JmRuPVRoZS5MYXN0Lk5hcnV0by50aGUuTW92aWUuMjAxNC43MjBwLkhEUmlwLjg1ME1CLk1rdkNhZ2UubWt2JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIub3BlbmJpdHRvcnJlbnQuY29tJTNBODAmdHI9dWRwJTNBJTJGJTJGb3Blbi5kZW1vbmlpLmNvbSUzQTEzMzcmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5jb3BwZXJzdXJmZXIudGslM0E2OTY5JnRyPXVkcCUzQSUyRiUyRmV4b2R1cy5kZXN5bmMuY29tJTNBNjk2OQ==&t=The.Last.Naruto.the.Movie.2014.720p.HDRip.850MB.MkvCage.mkv&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 5 comments." title="This torrent has 5 comments." /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 04-25&nbsp;2015, Size 852.73&nbsp;MiB, ULed by <a class="detDesc" href="/user/vickey1992/" title="Browse vickey1992">vickey1992</a></font>
+							</td>
+							<td align="right">90</td>
+							<td align="right">6</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/208" title="More from this category">HD - TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/12118417/[Fansub-Resistance]_Naruto_Shippuuden_419_[720p]" class="detLink" title="Details for [Fansub-Resistance] Naruto Shippuuden 419 [720p]">[Fansub-Resistance] Naruto Shippuuden 419 [720p]</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:9e808470a657c1702bfde1aa1955811cb7ac4a3e&dn=%5BFansub-Resistance%5D+Naruto+Shippuuden+419+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDo5ZTgwODQ3MGE2NTdjMTcwMmJmZGUxYWExOTU1ODExY2I3YWM0YTNlJmRuPSU1QkZhbnN1Yi1SZXNpc3RhbmNlJTVEK05hcnV0bytTaGlwcHV1ZGVuKzQxOSslNUI3MjBwJTVEJnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIub3BlbmJpdHRvcnJlbnQuY29tJTNBODAmdHI9dWRwJTNBJTJGJTJGb3Blbi5kZW1vbmlpLmNvbSUzQTEzMzcmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5jb3BwZXJzdXJmZXIudGslM0E2OTY5JnRyPXVkcCUzQSUyRiUyRmV4b2R1cy5kZXN5bmMuY29tJTNBNjk2OQ==&t=[Fansub-Resistance] Naruto Shippuuden 419 [720p]&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><a href="/user/Ctrlme"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 07-13&nbsp;2015, Size 201.35&nbsp;MiB, ULed by <a class="detDesc" href="/user/Ctrlme/" title="Browse Ctrlme">Ctrlme</a></font>
+							</td>
+							<td align="right">54</td>
+							<td align="right">1</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/205" title="More from this category">TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/12573564/Naruto_Shippuden_Season_16_(349-361)_Complete_EngSub" class="detLink" title="Details for Naruto Shippuden Season 16 (349-361) Complete EngSub">Naruto Shippuden Season 16 (349-361) Complete EngSub</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:0cd82eaa9531bd2094e5076a0edceeb7ea433ac6&dn=Naruto+Shippuden+Season+16+%28349-361%29+Complete+EngSub&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDowY2Q4MmVhYTk1MzFiZDIwOTRlNTA3NmEwZWRjZWViN2VhNDMzYWM2JmRuPU5hcnV0bytTaGlwcHVkZW4rU2Vhc29uKzE2KyUyODM0OS0zNjElMjkrQ29tcGxldGUrRW5nU3ViJnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIub3BlbmJpdHRvcnJlbnQuY29tJTNBODAmdHI9dWRwJTNBJTJGJTJGb3Blbi5kZW1vbmlpLmNvbSUzQTEzMzcmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5jb3BwZXJzdXJmZXIudGslM0E2OTY5JnRyPXVkcCUzQSUyRiUyRmV4b2R1cy5kZXN5bmMuY29tJTNBNjk2OQ==&t=Naruto Shippuden Season 16 (349-361) Complete EngSub&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/11x11p.png" /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 10-15&nbsp;2015, Size 1.02&nbsp;GiB, ULed by <a class="detDesc" href="/user/haripu/" title="Browse haripu">haripu</a></font>
+							</td>
+							<td align="right">39</td>
+							<td align="right">6</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/205" title="More from this category">TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/12573656/Naruto_Shippuden_Season_17_(362-372)_Complete_EngSub" class="detLink" title="Details for Naruto Shippuden Season 17 (362-372) Complete EngSub">Naruto Shippuden Season 17 (362-372) Complete EngSub</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:1b1c8c8d9de4877216a01b7c7a82e5933fe416f3&dn=Naruto+Shippuden+Season+17+%28362-372%29+Complete+EngSub&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDoxYjFjOGM4ZDlkZTQ4NzcyMTZhMDFiN2M3YTgyZTU5MzNmZTQxNmYzJmRuPU5hcnV0bytTaGlwcHVkZW4rU2Vhc29uKzE3KyUyODM2Mi0zNzIlMjkrQ29tcGxldGUrRW5nU3ViJnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIub3BlbmJpdHRvcnJlbnQuY29tJTNBODAmdHI9dWRwJTNBJTJGJTJGb3Blbi5kZW1vbmlpLmNvbSUzQTEzMzcmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5jb3BwZXJzdXJmZXIudGslM0E2OTY5JnRyPXVkcCUzQSUyRiUyRmV4b2R1cy5kZXN5bmMuY29tJTNBNjk2OQ==&t=Naruto Shippuden Season 17 (362-372) Complete EngSub&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/11x11p.png" /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 10-15&nbsp;2015, Size 817.74&nbsp;MiB, ULed by <a class="detDesc" href="/user/haripu/" title="Browse haripu">haripu</a></font>
+							</td>
+							<td align="right">37</td>
+							<td align="right">6</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/208" title="More from this category">HD - TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11637729/[HorribleSubs]_Naruto_Shippuuden_-_389_[720p].mkv" class="detLink" title="Details for [HorribleSubs] Naruto Shippuuden - 389 [720p].mkv">[HorribleSubs] Naruto Shippuuden - 389 [720p].mkv</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:0d77c727969a3feb1509ee251e9715010663ea25&dn=%5BHorribleSubs%5D+Naruto+Shippuuden+-+389+%5B720p%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDowZDc3YzcyNzk2OWEzZmViMTUwOWVlMjUxZTk3MTUwMTA2NjNlYTI1JmRuPSU1QkhvcnJpYmxlU3VicyU1RCtOYXJ1dG8rU2hpcHB1dWRlbistKzM4OSslNUI3MjBwJTVELm1rdiZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLm9wZW5iaXR0b3JyZW50LmNvbSUzQTgwJnRyPXVkcCUzQSUyRiUyRm9wZW4uZGVtb25paS5jb20lM0ExMzM3JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIuY29wcGVyc3VyZmVyLnRrJTNBNjk2OSZ0cj11ZHAlM0ElMkYlMkZleG9kdXMuZGVzeW5jLmNvbSUzQTY5Njk=&t=[HorribleSubs] Naruto Shippuuden - 389 [720p].mkv&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><a href="/user/darkj6"><img src="//thepiratebay.se/static/img/vip.gif" alt="VIP" title="VIP" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 12-05&nbsp;2014, Size 315.35&nbsp;MiB, ULed by <a class="detDesc" href="/user/darkj6/" title="Browse darkj6">darkj6</a></font>
+							</td>
+							<td align="right">35</td>
+							<td align="right">0</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/401" title="More from this category">PC</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/10082864/Naruto_Shippuden_-_Ultimate_Ninja_Storm_3_[R.G._Mechanics]_" class="detLink" title="Details for Naruto Shippuden - Ultimate Ninja Storm 3 [R.G. Mechanics] ">Naruto Shippuden - Ultimate Ninja Storm 3 [R.G. Mechanics] </a>
+								</div>
+								<a href="magnet:?xt=urn:btih:a2951be5a05123a6f6ec3d320e11b9fac67824f2&dn=Naruto+Shippuden+-+Ultimate+Ninja+Storm+3+%5BR.G.+Mechanics%5D+&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 1 comments." title="This torrent has 1 comments." /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 05-02&nbsp;2014, Size 5.6&nbsp;GiB, ULed by <a class="detDesc" href="/user/anuJXD/" title="Browse anuJXD">anuJXD</a></font>
+							</td>
+							<td align="right">34</td>
+							<td align="right">0</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/401" title="More from this category">PC</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/13431387/NARUTO.SHIPPUDEN.Ultimate.Ninja.STORM.4-CODEX" class="detLink" title="Details for NARUTO.SHIPPUDEN.Ultimate.Ninja.STORM.4-CODEX">NARUTO.SHIPPUDEN.Ultimate.Ninja.STORM.4-CODEX</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:b33073a411e95d3d62bb126aae4928646c280589&dn=NARUTO.SHIPPUDEN.Ultimate.Ninja.STORM.4-CODEX&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 41 comments." title="This torrent has 41 comments." /><a href="/user/mercs215"><img src="//thepiratebay.se/static/img/vip.gif" alt="VIP" title="VIP" style="width:11px;" border='0' /></a>
+								<font class="detDesc">Uploaded 02-05&nbsp;00:41, Size 33.13&nbsp;GiB, ULed by <a class="detDesc" href="/user/mercs215/" title="Browse mercs215">mercs215</a></font>
+							</td>
+							<td align="right">33</td>
+							<td align="right">47</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/208" title="More from this category">HD - TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11145592/[HorribleSubs]_Naruto_Shippuuden_-_380_[720p].mkv" class="detLink" title="Details for [HorribleSubs] Naruto Shippuuden - 380 [720p].mkv">[HorribleSubs] Naruto Shippuuden - 380 [720p].mkv</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:104bfd8ed53723e1f52d8c15bc59424debb6de03&dn=%5BHorribleSubs%5D+Naruto+Shippuuden+-+380+%5B720p%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDoxMDRiZmQ4ZWQ1MzcyM2UxZjUyZDhjMTViYzU5NDI0ZGViYjZkZTAzJmRuPSU1QkhvcnJpYmxlU3VicyU1RCtOYXJ1dG8rU2hpcHB1dWRlbistKzM4MCslNUI3MjBwJTVELm1rdiZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLm9wZW5iaXR0b3JyZW50LmNvbSUzQTgwJnRyPXVkcCUzQSUyRiUyRm9wZW4uZGVtb25paS5jb20lM0ExMzM3JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIuY29wcGVyc3VyZmVyLnRrJTNBNjk2OSZ0cj11ZHAlM0ElMkYlMkZleG9kdXMuZGVzeW5jLmNvbSUzQTY5Njk=&t=[HorribleSubs] Naruto Shippuuden - 380 [720p].mkv&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 1 comments." title="This torrent has 1 comments." /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 10-02&nbsp;2014, Size 314.62&nbsp;MiB, ULed by <a class="detDesc" href="/user/JRRtv/" title="Browse JRRtv">JRRtv</a></font>
+							</td>
+							<td align="right">31</td>
+							<td align="right">1</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/401" title="More from this category">PC</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11042217/Naruto_Shippuden_Ultimate_Ninja_Storm_Revolution___3_DLC" class="detLink" title="Details for Naruto Shippuden Ultimate Ninja Storm Revolution + 3 DLC">Naruto Shippuden Ultimate Ninja Storm Revolution + 3 DLC</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:0e5b1c6b3bdb56a00f9ccab6a58de155249c4ead&dn=Naruto+Shippuden+Ultimate+Ninja+Storm+Revolution+%2B+3+DLC&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 4 comments." title="This torrent has 4 comments." /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 09-16&nbsp;2014, Size 5.83&nbsp;GiB, ULed by <a class="detDesc" href="/user/iks_12/" title="Browse iks_12">iks_12</a></font>
+							</td>
+							<td align="right">30</td>
+							<td align="right">3</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/208" title="More from this category">HD - TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/10689158/Naruto_Shippuden_1-244_[HQ][Dual-Audio]_Movies_1-5_[1080p][DD5.1" class="detLink" title="Details for Naruto Shippuden 1-244 [HQ][Dual-Audio] Movies 1-5 [1080p][DD5.1">Naruto Shippuden 1-244 [HQ][Dual-Audio] Movies 1-5 [1080p][DD5.1</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:0223a309b78a7c21c204f22f1140fbce3c42a8b2&dn=Naruto+Shippuden+1-244+%5BHQ%5D%5BDual-Audio%5D+Movies+1-5+%5B1080p%5D%5BDD5.1&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDowMjIzYTMwOWI3OGE3YzIxYzIwNGYyMmYxMTQwZmJjZTNjNDJhOGIyJmRuPU5hcnV0bytTaGlwcHVkZW4rMS0yNDQrJTVCSFElNUQlNUJEdWFsLUF1ZGlvJTVEK01vdmllcysxLTUrJTVCMTA4MHAlNUQlNUJERDUuMSZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLm9wZW5iaXR0b3JyZW50LmNvbSUzQTgwJnRyPXVkcCUzQSUyRiUyRm9wZW4uZGVtb25paS5jb20lM0ExMzM3JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIuY29wcGVyc3VyZmVyLnRrJTNBNjk2OSZ0cj11ZHAlM0ElMkYlMkZleG9kdXMuZGVzeW5jLmNvbSUzQTY5Njk=&t=Naruto Shippuden 1-244 [HQ][Dual-Audio] Movies 1-5 [1080p][DD5.1&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 5 comments." title="This torrent has 5 comments." /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 08-03&nbsp;2014, Size 77.06&nbsp;GiB, ULed by <a class="detDesc" href="/user/SaTaNiK1/" title="Browse SaTaNiK1">SaTaNiK1</a></font>
+							</td>
+							<td align="right">20</td>
+							<td align="right">35</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/205" title="More from this category">TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/7337307/Naruto_Shippuden_266" class="detLink" title="Details for Naruto Shippuden 266">Naruto Shippuden 266</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:1b65698de816ab6e5cab8cf2eec9e9b9889a183e&dn=Naruto+Shippuden+266&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDoxYjY1Njk4ZGU4MTZhYjZlNWNhYjhjZjJlZWM5ZTliOTg4OWExODNlJmRuPU5hcnV0bytTaGlwcHVkZW4rMjY2JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIub3BlbmJpdHRvcnJlbnQuY29tJTNBODAmdHI9dWRwJTNBJTJGJTJGb3Blbi5kZW1vbmlpLmNvbSUzQTEzMzcmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5jb3BwZXJzdXJmZXIudGslM0E2OTY5JnRyPXVkcCUzQSUyRiUyRmV4b2R1cy5kZXN5bmMuY29tJTNBNjk2OQ==&t=Naruto Shippuden 266&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/11x11p.png" /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 06-07&nbsp;2012, Size 323.94&nbsp;MiB, ULed by <a class="detDesc" href="/user/pedrocarapina/" title="Browse pedrocarapina">pedrocarapina</a></font>
+							</td>
+							<td align="right">18</td>
+							<td align="right">0</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/205" title="More from this category">TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11331107/[HorribleSubs]_Naruto_Shippuuden_-_384_[480p].mkv" class="detLink" title="Details for [HorribleSubs] Naruto Shippuuden - 384 [480p].mkv">[HorribleSubs] Naruto Shippuuden - 384 [480p].mkv</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:1be5dd6762f55f08f63d32d949aca606c34ca0a2&dn=%5BHorribleSubs%5D+Naruto+Shippuuden+-+384+%5B480p%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDoxYmU1ZGQ2NzYyZjU1ZjA4ZjYzZDMyZDk0OWFjYTYwNmMzNGNhMGEyJmRuPSU1QkhvcnJpYmxlU3VicyU1RCtOYXJ1dG8rU2hpcHB1dWRlbistKzM4NCslNUI0ODBwJTVELm1rdiZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLm9wZW5iaXR0b3JyZW50LmNvbSUzQTgwJnRyPXVkcCUzQSUyRiUyRm9wZW4uZGVtb25paS5jb20lM0ExMzM3JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIuY29wcGVyc3VyZmVyLnRrJTNBNjk2OSZ0cj11ZHAlM0ElMkYlMkZleG9kdXMuZGVzeW5jLmNvbSUzQTY5Njk=&t=[HorribleSubs] Naruto Shippuuden - 384 [480p].mkv&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><a href="/user/darkj6"><img src="//thepiratebay.se/static/img/vip.gif" alt="VIP" title="VIP" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 10-30&nbsp;2014, Size 143.48&nbsp;MiB, ULed by <a class="detDesc" href="/user/darkj6/" title="Browse darkj6">darkj6</a></font>
+							</td>
+							<td align="right">18</td>
+							<td align="right">0</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/205" title="More from this category">TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/8963920/Naruto_(2002)_[1-220]_Complete" class="detLink" title="Details for Naruto (2002) [1-220] Complete">Naruto (2002) [1-220] Complete</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:1b80a97b85c8e723da70c834c891864e6d754b04&dn=Naruto+%282002%29+%5B1-220%5D+Complete&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDoxYjgwYTk3Yjg1YzhlNzIzZGE3MGM4MzRjODkxODY0ZTZkNzU0YjA0JmRuPU5hcnV0byslMjgyMDAyJTI5KyU1QjEtMjIwJTVEK0NvbXBsZXRlJnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIub3BlbmJpdHRvcnJlbnQuY29tJTNBODAmdHI9dWRwJTNBJTJGJTJGb3Blbi5kZW1vbmlpLmNvbSUzQTEzMzcmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5jb3BwZXJzdXJmZXIudGslM0E2OTY5JnRyPXVkcCUzQSUyRiUyRmV4b2R1cy5kZXN5bmMuY29tJTNBNjk2OQ==&t=Naruto (2002) [1-220] Complete&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><a href="/user/darkj6"><img src="//thepiratebay.se/static/img/vip.gif" alt="VIP" title="VIP" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 09-26&nbsp;2013, Size 36.62&nbsp;GiB, ULed by <a class="detDesc" href="/user/darkj6/" title="Browse darkj6">darkj6</a></font>
+							</td>
+							<td align="right">16</td>
+							<td align="right">25</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/205" title="More from this category">TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11971385/Naruto_Shippuden_414_[EnG_SuB]_480p_L_mBerT" class="detLink" title="Details for Naruto Shippuden 414 [EnG SuB] 480p L@mBerT">Naruto Shippuden 414 [EnG SuB] 480p <span class="__cf_email__" data-cfemail="612d210c23041335">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+								</div>
+								<a href="magnet:?xt=urn:btih:07ccd7b8719ff752ad2d8b5186dedfb313fc144e&dn=Naruto+Shippuden+414+%5BEnG+SuB%5D+480p+L%40mBerT&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDowN2NjZDdiODcxOWZmNzUyYWQyZDhiNTE4NmRlZGZiMzEzZmMxNDRlJmRuPU5hcnV0bytTaGlwcHVkZW4rNDE0KyU1QkVuRytTdUIlNUQrNDgwcCtMJTQwbUJlclQmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5vcGVuYml0dG9ycmVudC5jb20lM0E4MCZ0cj11ZHAlM0ElMkYlMkZvcGVuLmRlbW9uaWkuY29tJTNBMTMzNyZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLmNvcHBlcnN1cmZlci50ayUzQTY5NjkmdHI9dWRwJTNBJTJGJTJGZXhvZHVzLmRlc3luYy5jb20lM0E2OTY5&t=Naruto Shippuden 414 [EnG SuB] 480p L@mBerT&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><a href="/user/LamBerT_vin"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 05-28&nbsp;2015, Size 64.21&nbsp;MiB, ULed by <a class="detDesc" href="/user/LamBerT_vin/" title="Browse LamBerT_vin">LamBerT_vin</a></font>
+							</td>
+							<td align="right">15</td>
+							<td align="right">2</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/401" title="More from this category">PC</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/13433135/NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_4-CODEX" class="detLink" title="Details for NARUTO SHIPPUDEN Ultimate Ninja STORM 4-CODEX">NARUTO SHIPPUDEN Ultimate Ninja STORM 4-CODEX</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:3f98a8c7999cb8980f822221282d913259cec56a&dn=NARUTO+SHIPPUDEN+Ultimate+Ninja+STORM+4-CODEX&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 3 comments." title="This torrent has 3 comments." /><a href="/user/lyrical1986"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a>
+								<font class="detDesc">Uploaded 02-05&nbsp;02:42, Size 33.13&nbsp;GiB, ULed by <a class="detDesc" href="/user/lyrical1986/" title="Browse lyrical1986">lyrical1986</a></font>
+							</td>
+							<td align="right">15</td>
+							<td align="right">23</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/403" title="More from this category">PSx</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/6031065/Naruto_Shippuden_Ultimate_Ninja_5.iso_PS2" class="detLink" title="Details for Naruto Shippuden Ultimate Ninja 5.iso PS2">Naruto Shippuden Ultimate Ninja 5.iso PS2</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:28227bb7ec530419a9d6d6871ffdfec4f73b345f&dn=Naruto+Shippuden+Ultimate+Ninja+5.iso+PS2&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 26 comments." title="This torrent has 26 comments." /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 12-11&nbsp;2010, Size 1.79&nbsp;GiB, ULed by <a class="detDesc" href="/user/Pratyoush/" title="Browse Pratyoush">Pratyoush</a></font>
+							</td>
+							<td align="right">14</td>
+							<td align="right">0</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/403" title="More from this category">PSx</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/9087922/Naruto.Shippuden.Ultimate.Ninja.Storm.3.Full.Burst.PS3-DUPLEX" class="detLink" title="Details for Naruto.Shippuden.Ultimate.Ninja.Storm.3.Full.Burst.PS3-DUPLEX">Naruto.Shippuden.Ultimate.Ninja.Storm.3.Full.Burst.PS3-DUPLEX</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:0dfbe3393ada6c25fae32c9fe57c59c0e65703fd&dn=Naruto.Shippuden.Ultimate.Ninja.Storm.3.Full.Burst.PS3-DUPLEX&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 2 comments." title="This torrent has 2 comments." /><a href="/user/thenoobish"><img src="//thepiratebay.se/static/img/vip.gif" alt="VIP" title="VIP" style="width:11px;" border='0' /></a>
+								<font class="detDesc">Uploaded 10-23&nbsp;2013, Size 6.92&nbsp;GiB, ULed by <a class="detDesc" href="/user/thenoobish/" title="Browse thenoobish">thenoobish</a></font>
+							</td>
+							<td align="right">14</td>
+							<td align="right">2</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/205" title="More from this category">TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/9039100/Naruto_Season_1_(2002-2003)_Remastered_[1-35]_480p_[English]_WEB" class="detLink" title="Details for Naruto Season 1 (2002-2003) Remastered [1-35] 480p [English] WEB">Naruto Season 1 (2002-2003) Remastered [1-35] 480p [English] WEB</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:0bda8ca7312e7806f83f0a18b27c20eeed69863d&dn=Naruto+Season+1+%282002-2003%29+Remastered+%5B1-35%5D+480p+%5BEnglish%5D+WEB&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDowYmRhOGNhNzMxMmU3ODA2ZjgzZjBhMThiMjdjMjBlZWVkNjk4NjNkJmRuPU5hcnV0bytTZWFzb24rMSslMjgyMDAyLTIwMDMlMjkrUmVtYXN0ZXJlZCslNUIxLTM1JTVEKzQ4MHArJTVCRW5nbGlzaCU1RCtXRUImdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5vcGVuYml0dG9ycmVudC5jb20lM0E4MCZ0cj11ZHAlM0ElMkYlMkZvcGVuLmRlbW9uaWkuY29tJTNBMTMzNyZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLmNvcHBlcnN1cmZlci50ayUzQTY5NjkmdHI9dWRwJTNBJTJGJTJGZXhvZHVzLmRlc3luYy5jb20lM0E2OTY5&t=Naruto Season 1 (2002-2003) Remastered [1-35] 480p [English] WEB&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 1 comments." title="This torrent has 1 comments." /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 10-12&nbsp;2013, Size 2.25&nbsp;GiB, ULed by <a class="detDesc" href="/user/RickyKT/" title="Browse RickyKT">RickyKT</a></font>
+							</td>
+							<td align="right">13</td>
+							<td align="right">3</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/401" title="More from this category">PC</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/9095564/Naruto_Shippuden_Ultimate_Ninja_Storm_3_Full_Burst-RELOADED" class="detLink" title="Details for Naruto Shippuden Ultimate Ninja Storm 3 Full Burst-RELOADED">Naruto Shippuden Ultimate Ninja Storm 3 Full Burst-RELOADED</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:31b66037b08e376b26fff143d402c3970b1f1128&dn=Naruto+Shippuden+Ultimate+Ninja+Storm+3+Full+Burst-RELOADED&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 324 comments." title="This torrent has 324 comments." /><a href="/user/extremezone"><img src="//thepiratebay.se/static/img/vip.gif" alt="VIP" title="VIP" style="width:11px;" border='0' /></a>
+								<font class="detDesc">Uploaded 10-25&nbsp;2013, Size 7.11&nbsp;GiB, ULed by <a class="detDesc" href="/user/extremezone/" title="Browse extremezone">extremezone</a></font>
+							</td>
+							<td align="right">12</td>
+							<td align="right">1</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/208" title="More from this category">HD - TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11919466/Naruto_Shippuuden_-_411_(1920x1080)_[rich_jc].mkv" class="detLink" title="Details for Naruto Shippuuden - 411 (1920x1080) [rich_jc].mkv">Naruto Shippuuden - 411 (1920x1080) [rich_jc].mkv</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:f8bed3e3fb5588f84c9a359c148756f581c05675&dn=Naruto+Shippuuden+-+411+%281920x1080%29+%5Brich_jc%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDpmOGJlZDNlM2ZiNTU4OGY4NGM5YTM1OWMxNDg3NTZmNTgxYzA1Njc1JmRuPU5hcnV0bytTaGlwcHV1ZGVuKy0rNDExKyUyODE5MjB4MTA4MCUyOSslNUJyaWNoX2pjJTVELm1rdiZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLm9wZW5iaXR0b3JyZW50LmNvbSUzQTgwJnRyPXVkcCUzQSUyRiUyRm9wZW4uZGVtb25paS5jb20lM0ExMzM3JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIuY29wcGVyc3VyZmVyLnRrJTNBNjk2OSZ0cj11ZHAlM0ElMkYlMkZleG9kdXMuZGVzeW5jLmNvbSUzQTY5Njk=&t=Naruto Shippuuden - 411 (1920x1080) [rich_jc].mkv&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><a href="/user/rich_jc"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 05-14&nbsp;2015, Size 529.22&nbsp;MiB, ULed by <a class="detDesc" href="/user/rich_jc/" title="Browse rich_jc">rich_jc</a></font>
+							</td>
+							<td align="right">11</td>
+							<td align="right">0</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/401" title="More from this category">PC</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/13439178/Naruto_Shippuden___Ultimate_Ninja_Storm_4_(PC)" class="detLink" title="Details for Naruto Shippuden : Ultimate Ninja Storm 4 (PC)">Naruto Shippuden : Ultimate Ninja Storm 4 (PC)</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:428d26c1dc1255fa37e0a0604492b63391e43ef7&dn=Naruto+Shippuden+%3A+Ultimate+Ninja+Storm+4+%28PC%29&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/user/annuaireweb"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 02-05&nbsp;14:24, Size 33.13&nbsp;GiB, ULed by <a class="detDesc" href="/user/annuaireweb/" title="Browse annuaireweb">annuaireweb</a></font>
+							</td>
+							<td align="right">11</td>
+							<td align="right">16</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/208" title="More from this category">HD - TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/13609265/[Vision]_Naruto_Shippuuden_-_449_(1080p_x264_AAC)_[rich_jc].mp4" class="detLink" title="Details for [Vision] Naruto Shippuuden - 449 (1080p x264 AAC) [rich_jc].mp4">[Vision] Naruto Shippuuden - 449 (1080p x264 AAC) [rich_jc].mp4</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:eac50072851a43319f0e90fbe44aee5e784a133c&dn=%5BVision%5D+Naruto+Shippuuden+-+449+%281080p+x264+AAC%29+%5Brich_jc%5D.mp4&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDplYWM1MDA3Mjg1MWE0MzMxOWYwZTkwZmJlNDRhZWU1ZTc4NGExMzNjJmRuPSU1QlZpc2lvbiU1RCtOYXJ1dG8rU2hpcHB1dWRlbistKzQ0OSslMjgxMDgwcCt4MjY0K0FBQyUyOSslNUJyaWNoX2pjJTVELm1wNCZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLm9wZW5iaXR0b3JyZW50LmNvbSUzQTgwJnRyPXVkcCUzQSUyRiUyRm9wZW4uZGVtb25paS5jb20lM0ExMzM3JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIuY29wcGVyc3VyZmVyLnRrJTNBNjk2OSZ0cj11ZHAlM0ElMkYlMkZleG9kdXMuZGVzeW5jLmNvbSUzQTY5Njk=&t=[Vision] Naruto Shippuuden - 449 (1080p x264 AAC) [rich_jc].mp4&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><a href="/user/rich_jc"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 02-19&nbsp;20:56, Size 445.78&nbsp;MiB, ULed by <a class="detDesc" href="/user/rich_jc/" title="Browse rich_jc">rich_jc</a></font>
+							</td>
+							<td align="right">11</td>
+							<td align="right">3</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/201" title="More from this category">Movies</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11706251/Naruto_Shippuden_Shippuuden_Movie_6_Road_to_Ninja_BD_720p_(Dual_" class="detLink" title="Details for Naruto Shippuden/Shippuuden Movie 6 Road to Ninja BD 720p (Dual ">Naruto Shippuden/Shippuuden Movie 6 Road to Ninja BD 720p (Dual </a>
+								</div>
+								<a href="magnet:?xt=urn:btih:150acaeb9cb82d912471a905b04c2a9769dcfd4a&dn=Naruto+Shippuden%2FShippuuden+Movie+6+Road+to+Ninja+BD+720p+%28Dual+&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDoxNTBhY2FlYjljYjgyZDkxMjQ3MWE5MDViMDRjMmE5NzY5ZGNmZDRhJmRuPU5hcnV0bytTaGlwcHVkZW4lMkZTaGlwcHV1ZGVuK01vdmllKzYrUm9hZCt0bytOaW5qYStCRCs3MjBwKyUyOER1YWwrJnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIub3BlbmJpdHRvcnJlbnQuY29tJTNBODAmdHI9dWRwJTNBJTJGJTJGb3Blbi5kZW1vbmlpLmNvbSUzQTEzMzcmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5jb3BwZXJzdXJmZXIudGslM0E2OTY5JnRyPXVkcCUzQSUyRiUyRmV4b2R1cy5kZXN5bmMuY29tJTNBNjk2OQ==&t=Naruto Shippuden/Shippuuden Movie 6 Road to Ninja BD 720p (Dual &i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/11x11p.png" /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 02-17&nbsp;2015, Size 2.17&nbsp;GiB, ULed by <a class="detDesc" href="/user/ChoeyXD/" title="Browse ChoeyXD">ChoeyXD</a></font>
+							</td>
+							<td align="right">10</td>
+							<td align="right">1</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/208" title="More from this category">HD - TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/13312334/[Vision]_Naruto_Shippuuden_-_445_(1080p_x264_AAC)_[rich_jc].mp4" class="detLink" title="Details for [Vision] Naruto Shippuuden - 445 (1080p x264 AAC) [rich_jc].mp4">[Vision] Naruto Shippuuden - 445 (1080p x264 AAC) [rich_jc].mp4</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:15fab86f0899dcf857c190fe317d013dc4d20bfe&dn=%5BVision%5D+Naruto+Shippuuden+-+445+%281080p+x264+AAC%29+%5Brich_jc%5D.mp4&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDoxNWZhYjg2ZjA4OTlkY2Y4NTdjMTkwZmUzMTdkMDEzZGM0ZDIwYmZlJmRuPSU1QlZpc2lvbiU1RCtOYXJ1dG8rU2hpcHB1dWRlbistKzQ0NSslMjgxMDgwcCt4MjY0K0FBQyUyOSslNUJyaWNoX2pjJTVELm1wNCZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLm9wZW5iaXR0b3JyZW50LmNvbSUzQTgwJnRyPXVkcCUzQSUyRiUyRm9wZW4uZGVtb25paS5jb20lM0ExMzM3JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIuY29wcGVyc3VyZmVyLnRrJTNBNjk2OSZ0cj11ZHAlM0ElMkYlMkZleG9kdXMuZGVzeW5jLmNvbSUzQTY5Njk=&t=[Vision] Naruto Shippuuden - 445 (1080p x264 AAC) [rich_jc].mp4&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><a href="/user/rich_jc"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 01-26&nbsp;04:04, Size 445.91&nbsp;MiB, ULed by <a class="detDesc" href="/user/rich_jc/" title="Browse rich_jc">rich_jc</a></font>
+							</td>
+							<td align="right">10</td>
+							<td align="right">4</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/208" title="More from this category">HD - TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/13514748/[Vision]_Naruto_Shippuuden_-_448_(1080p_x264_AAC)_[rich_jc].mp4" class="detLink" title="Details for [Vision] Naruto Shippuuden - 448 (1080p x264 AAC) [rich_jc].mp4">[Vision] Naruto Shippuuden - 448 (1080p x264 AAC) [rich_jc].mp4</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:38ce513382ca6835e276451f1c6e4c29791140de&dn=%5BVision%5D+Naruto+Shippuuden+-+448+%281080p+x264+AAC%29+%5Brich_jc%5D.mp4&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDozOGNlNTEzMzgyY2E2ODM1ZTI3NjQ1MWYxYzZlNGMyOTc5MTE0MGRlJmRuPSU1QlZpc2lvbiU1RCtOYXJ1dG8rU2hpcHB1dWRlbistKzQ0OCslMjgxMDgwcCt4MjY0K0FBQyUyOSslNUJyaWNoX2pjJTVELm1wNCZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLm9wZW5iaXR0b3JyZW50LmNvbSUzQTgwJnRyPXVkcCUzQSUyRiUyRm9wZW4uZGVtb25paS5jb20lM0ExMzM3JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIuY29wcGVyc3VyZmVyLnRrJTNBNjk2OSZ0cj11ZHAlM0ElMkYlMkZleG9kdXMuZGVzeW5jLmNvbSUzQTY5Njk=&t=[Vision] Naruto Shippuuden - 448 (1080p x264 AAC) [rich_jc].mp4&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><a href="/user/rich_jc"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 02-12&nbsp;23:07, Size 445.86&nbsp;MiB, ULed by <a class="detDesc" href="/user/rich_jc/" title="Browse rich_jc">rich_jc</a></font>
+							</td>
+							<td align="right">10</td>
+							<td align="right">4</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/299" title="More from this category">Other</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/4529225/Naruto_1a._a_9a._temporada_completa__incluindo_bonus" class="detLink" title="Details for Naruto 1a. a 9a. temporada completa, incluindo bonus">Naruto 1a. a 9a. temporada completa, incluindo bonus</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:0814b9f2cd136d62d2ad1f4b184bfa5ddcc0ed93&dn=Naruto+1a.+a+9a.+temporada+completa%2C+incluindo+bonus&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDowODE0YjlmMmNkMTM2ZDYyZDJhZDFmNGIxODRiZmE1ZGRjYzBlZDkzJmRuPU5hcnV0bysxYS4rYSs5YS4rdGVtcG9yYWRhK2NvbXBsZXRhJTJDK2luY2x1aW5kbytib251cyZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLm9wZW5iaXR0b3JyZW50LmNvbSUzQTgwJnRyPXVkcCUzQSUyRiUyRm9wZW4uZGVtb25paS5jb20lM0ExMzM3JnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIuY29wcGVyc3VyZmVyLnRrJTNBNjk2OSZ0cj11ZHAlM0ElMkYlMkZleG9kdXMuZGVzeW5jLmNvbSUzQTY5Njk=&t=Naruto 1a. a 9a. temporada completa, incluindo bonus&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 3 comments." title="This torrent has 3 comments." /><img src="//thepiratebay.se/static/img/11x11p.png" />
+								<font class="detDesc">Uploaded 11-23&nbsp;2008, Size 10.44&nbsp;GiB, ULed by <a class="detDesc" href="/user/fabioouroeste/" title="Browse fabioouroeste">fabioouroeste</a></font>
+							</td>
+							<td align="right">9</td>
+							<td align="right">6</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/205" title="More from this category">TV shows</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11920052/Naruto_Shippuden_412_[EnG_SuB]_480p_L_mBerT" class="detLink" title="Details for Naruto Shippuden 412 [EnG SuB] 480p L@mBerT">Naruto Shippuden 412 [EnG SuB] 480p <span class="__cf_email__" data-cfemail="1b575b76597e694f">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+								</div>
+								<a href="magnet:?xt=urn:btih:01620501edb4bac8c12b3a0a13af67aadc58bb81&dn=Naruto+Shippuden+412+%5BEnG+SuB%5D+480p+L%40mBerT&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDowMTYyMDUwMWVkYjRiYWM4YzEyYjNhMGExM2FmNjdhYWRjNThiYjgxJmRuPU5hcnV0bytTaGlwcHVkZW4rNDEyKyU1QkVuRytTdUIlNUQrNDgwcCtMJTQwbUJlclQmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5vcGVuYml0dG9ycmVudC5jb20lM0E4MCZ0cj11ZHAlM0ElMkYlMkZvcGVuLmRlbW9uaWkuY29tJTNBMTMzNyZ0cj11ZHAlM0ElMkYlMkZ0cmFja2VyLmNvcHBlcnN1cmZlci50ayUzQTY5NjkmdHI9dWRwJTNBJTJGJTJGZXhvZHVzLmRlc3luYy5jb20lM0E2OTY5&t=Naruto Shippuden 412 [EnG SuB] 480p L@mBerT&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 2 comments." title="This torrent has 2 comments." /><a href="/user/LamBerT_vin"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a>
+								<font class="detDesc">Uploaded 05-14&nbsp;2015, Size 64.26&nbsp;MiB, ULed by <a class="detDesc" href="/user/LamBerT_vin/" title="Browse LamBerT_vin">LamBerT_vin</a></font>
+							</td>
+							<td align="right">9</td>
+							<td align="right">3</td>
+						</tr>
+						<tr>
+							<td class="vertTh">
+								<center>
+									<a href="/browse/200" title="More from this category">Video</a><br />
+									(<a href="/browse/207" title="More from this category">HD - Movies</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/8444723/[Hatsuyuki]_Naruto_Shippuuden_Movie_6_Road_to_Ninja_[BD][720p_10" class="detLink" title="Details for [Hatsuyuki]_Naruto_Shippuuden_Movie_6_Road_to_Ninja_[BD][720p_10">[Hatsuyuki]_Naruto_Shippuuden_Movie_6_Road_to_Ninja_[BD][720p_10</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:01aa7b0eb6a880d5bc286822040a15ce14b710fb&dn=%5BHatsuyuki%5D_Naruto_Shippuuden_Movie_6_Road_to_Ninja_%5BBD%5D%5B720p_10&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><a href="/tt.php?tor=bWFnbmV0Oj94dD11cm46YnRpaDowMWFhN2IwZWI2YTg4MGQ1YmMyODY4MjIwNDBhMTVjZTE0YjcxMGZiJmRuPSU1QkhhdHN1eXVraSU1RF9OYXJ1dG9fU2hpcHB1dWRlbl9Nb3ZpZV82X1JvYWRfdG9fTmluamFfJTVCQkQlNUQlNUI3MjBwXzEwJnRyPXVkcCUzQSUyRiUyRnRyYWNrZXIub3BlbmJpdHRvcnJlbnQuY29tJTNBODAmdHI9dWRwJTNBJTJGJTJGb3Blbi5kZW1vbmlpLmNvbSUzQTEzMzcmdHI9dWRwJTNBJTJGJTJGdHJhY2tlci5jb3BwZXJzdXJmZXIudGslM0E2OTY5JnRyPXVkcCUzQSUyRiUyRmV4b2R1cy5kZXN5bmMuY29tJTNBNjk2OQ==&t=[Hatsuyuki]_Naruto_Shippuuden_Movie_6_Road_to_Ninja_[BD][720p_10&i=" target="_blank" title="Stream using Torrents-Time"><img src="//thepiratebay.se/static/img/icons/icon-tt.png" alt="Stream link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 3 comments." title="This torrent has 3 comments." /><a href="/user/k1ng_ruLz"><img src="//thepiratebay.se/static/img/vip.gif" alt="VIP" title="VIP" style="width:11px;" border='0' /></a>
+								<font class="detDesc">Uploaded 05-06&nbsp;2013, Size 3.04&nbsp;GiB, ULed by <a class="detDesc" href="/user/k1ng_ruLz/" title="Browse k1ng_ruLz">k1ng_ruLz</a></font>
+							</td>
+							<td align="right">8</td>
+							<td align="right">1</td>
+						</tr>
+						<tr class="alt">
+							<td class="vertTh">
+								<center>
+									<a href="/browse/400" title="More from this category">Games</a><br />
+									(<a href="/browse/401" title="More from this category">PC</a>)
+								</center>
+							</td>
+							<td>
+								<div class="detName">			<a href="/torrent/11039605/Naruto_Shippuden_Ultimate_Ninja_Storm_Revolution-CODEX" class="detLink" title="Details for Naruto Shippuden Ultimate Ninja Storm Revolution-CODEX">Naruto Shippuden Ultimate Ninja Storm Revolution-CODEX</a>
+								</div>
+								<a href="magnet:?xt=urn:btih:c8b157dd970a04eaeadf1ec80b616958ed0cbb94&dn=Naruto+Shippuden+Ultimate+Ninja+Storm+Revolution-CODEX&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Download this torrent using magnet"><img src="//thepiratebay.se/static/img/icon-magnet.gif" alt="Magnet link" /></a><img src="//thepiratebay.se/static/img/icon_comment.gif" alt="This torrent has 149 comments." title="This torrent has 149 comments." /><a href="/user/razalgul1979"><img src="//thepiratebay.se/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></a>
+								<font class="detDesc">Uploaded 09-16&nbsp;2014, Size 7.84&nbsp;GiB, ULed by <a class="detDesc" href="/user/razalgul1979/" title="Browse razalgul1979">razalgul1979</a></font>
+							</td>
+							<td align="right">8</td>
+							<td align="right">3</td>
+						</tr>
+
+					</table>
+				</div>
+				<div align="center">1&nbsp;<a href="/search/Naruto/1/7//">2</a>&nbsp;<a href="/search/Naruto/2/7//">3</a>&nbsp;<a href="/search/Naruto/3/7//">4</a>&nbsp;<a href="/search/Naruto/4/7//">5</a>&nbsp;<a href="/search/Naruto/5/7//">6</a>&nbsp;<a href="/search/Naruto/6/7//">7</a>&nbsp;<a href="/search/Naruto/7/7//">8</a>&nbsp;<a href="/search/Naruto/8/7//">9</a>&nbsp;<a href="/search/Naruto/9/7//">10</a>&nbsp;<a href="/search/Naruto/10/7//">11</a>&nbsp;<a href="/search/Naruto/11/7//">12</a>&nbsp;<a href="/search/Naruto/12/7//">13</a>&nbsp;<a href="/search/Naruto/13/7//">14</a>&nbsp;<a href="/search/Naruto/14/7//">15</a>&nbsp;<a href="/search/Naruto/15/7//">16</a>&nbsp;<a href="/search/Naruto/16/7//">17</a>&nbsp;<a href="/search/Naruto/17/7//">18</a>&nbsp;<a href="/search/Naruto/18/7//">19</a>&nbsp;<a href="/search/Naruto/19/7//">20</a>&nbsp;<a href="/search/Naruto/20/7//">21</a>&nbsp;<a href="/search/Naruto/21/7//">22</a>&nbsp;<a href="/search/Naruto/22/7//">23</a>&nbsp;<a href="/search/Naruto/23/7//">24</a>&nbsp;<a href="/search/Naruto/24/7//">25</a>&nbsp;<a href="/search/Naruto/25/7//">26</a>&nbsp;<a href="/search/Naruto/26/7//">27</a>&nbsp;<a href="/search/Naruto/27/7//">28</a>&nbsp;<a href="/search/Naruto/28/7//">29</a>&nbsp;<a href="/search/Naruto/29/7//">30</a>&nbsp;<a href="/search/Naruto/30/7//">31</a>&nbsp;<a href="/search/Naruto/31/7//">32</a>&nbsp;<a href="/search/Naruto/32/7//">33</a>&nbsp;<a href="/search/Naruto/33/7//">34</a>&nbsp;<a href="/search/Naruto/34/7//">35</a>&nbsp;<a href="/search/Naruto/35/7//">36</a>&nbsp;<a href="/search/Naruto/36/7//">37</a>&nbsp;<a href="/search/Naruto/37/7//">38</a>&nbsp;<a href="/search/Naruto/38/7//">39</a>&nbsp;<a href="/search/Naruto/39/7//">40</a>&nbsp;<a href="/search/Naruto/40/7//">41</a>&nbsp;<a href="/search/Naruto/41/7//">42</a>&nbsp;<a href="/search/Naruto/42/7//">43</a>&nbsp;<a href="/search/Naruto/43/7//">44</a>&nbsp;<a href="/search/Naruto/44/7//">45</a>&nbsp;<a href="/search/Naruto/45/7//">46</a>&nbsp;<a href="/search/Naruto/46/7//">47</a>&nbsp;<a href="/search/Naruto/47/7//">48</a>&nbsp;<a href="/search/Naruto/48/7//">49</a>&nbsp;<a href="/search/Naruto/49/7//">50</a>&nbsp;<a href="/search/Naruto/1/7//"><img src="//thepiratebay.se/static/img/next.gif" border="0" alt="Next"/></a>&nbsp;
+				</div>                 <script> if(getCookie("exo") == null) {
+					document.write(unescape("%3Cdiv class=\"ads\" id=\"sky-banner-sm\"%3E%3Ciframe src=\"//thepiratebay.se/static/ads/exo_na_sm/sky1.html\" width=\"250\" height=\"600\" frameborder=\"0\" scrolling=\"no\"%3E%3C/iframe%3E%3C/div%3E"));
+					document.write(unescape("%3Cscript type=\"text/javascript\" src=\"//thepiratebay.se/static/ads/ad-scroll-sm.js\"%3E%3C/script%3E"));
+					} else {
+					document.write(unescape("%3Cdiv class=\"ads\" id=\"sky-banner\"%3E%3Ciframe src=\"//thepiratebay.se/static/ads/exo_na/sky1.html\" width=\"120\" height=\"600\" frameborder=\"0\" scrolling=\"no\"%3E%3C/iframe%3E%3C/div%3E"));
+					document.write(unescape("%3Cscript type=\"text/javascript\" src=\"//thepiratebay.se/static/ads/ad-scroll.js\"%3E%3C/script%3E"));
+					} </script>
+			</div></div></div><!-- //div:content -->
+
+		<div id="foot" style="text-align:center;margin-top:1em;">
+
+			<iframe src="//thepiratebay.se/static/ads/exo_na/bottom.html" width="728" height="90" frameborder="0" scrolling="no"></iframe>
+			<p>
+				<a href="/login" title="Login">Login</a> | 
+				<a href="/register" title="Register">Register</a> | 
+				<a href="/language" title="Select language">Language / Select language</a> |
+				<a href="/about" title="About">About</a> |
+				<a href="/blog" title="Blog">Blog</a>
+				<br />
+				<!--<a href="/contact" title="Contact us">Contact us</a> |-->
+				<a href="/policy" title="Usage policy">Usage policy</a> |
+				<a href="http://uj3wazyk5u4hnvtk.onion" title="TOR">TOR</a> |
+				<a href="http://www.promobay.org/" title="Promo" target="_NEW">Promo</a> |
+				<a href="/doodles" title="Doodles">Doodles</a> |
+				<a href="/tags" title="Tag Cloud">Tag Cloud</a> |
+				<a href="http://pirates-forum.org/" title="Forum" target="_blank">Forum</a> 
+				<br />
+			</p>
+
+			<br /><a href="http://bitcoin.org" target="_NEW">BitCoin</a>: <b><a href="bitcoin:129TQVAroeehD9fZpzK51NdZGQT4TqifbG">129TQVAroeehD9fZpzK51NdZGQT4TqifbG</a></b><br /><br />
+
+			<div id="fbanners">
+				<a href="/rss" class="rss" title="RSS"><img src="//thepiratebay.se/static/img/rss_small.gif" alt="RSS" /></a>
+			</div><!-- // div:fbanners -->
+		</div><!-- // div:foot -->
+
+		<script>
+			var _wm_settings = {
+			popunder: {
+			url: 			'http://serve.adplxmd.com/?placement=289748&redirect',
+			times: 		2,
+			hours: 		12.000000,
+			cookie: 	'tpbpop',
+			fastbind:true
+			}
+			};
+			var _wm={initialize:function(){this.ua.initialize()},array:{is_array:function(a){return Object.prototype.toString.call(a)==='[object Array]'},sort:function(a,b,c){a=a.sort();if(b)a=a.reverse();if(c){for(var i=0;i<a.length;i++){var d=a[i];if(Object.prototype.toString.call(d)==='[object Object]')d=_wm.object.sort(d,b,true);else if(Object.prototype.toString.call(d)==='[object Array]')d=_wm.array.sort(d,b,true);a[i]=d}}return a},random_value:function(a){return a[Math.floor(a.length*Math.random())]}},object:{is_object:function(a){return Object.prototype.toString.call(a)==='[object Object]'},keys:function(a){var hasOwnProperty=Object.prototype.hasOwnProperty,hasDontEnumBug=!({toString:null}).propertyIsEnumerable('toString'),dontEnums=['toString','toLocaleString','valueOf','hasOwnProperty','isPrototypeOf','propertyIsEnumerable','constructor'],dontEnumsLength=dontEnums.length;var b=[];if(typeof a!=='object'&&typeof a!=='function'||a===null)return b;for(var c in a){if(hasOwnProperty.call(a,c))b.push(c)}if(hasDontEnumBug){for(var i=0;i<dontEnumsLength;i++){if(hasOwnProperty.call(a,dontEnums[i]))b.push(dontEnums[i])}}return b},sort:function(a,c,d){var e=_wm.array.sort(_wm.object.keys(a));if(c)e=e.reverse();var b={};for(var i=0;i<e.length;i++){var f=a[e[i]];if(d){if(_wm.object.is_object(f))f=_wm.object.sort(f,c,true);else if(_wm.array.is_array(f))f=_wm.array.sort(f,c,true)}b[e[i]]=f}return b},iterator:function(b){this.element=b;this.element_array=_wm.object.keys(b);this.current_index=0;this.hasNext=function(){return this.current_index<=this.element_array.length-1};this.next=function(){if(this.hasNext()){var a=[this.element_array[this.current_index],this.element[this.element_array[this.current_index]]];this.current_index++;return a}return false}},random_value:function(a){return a[_wm.array.random_value(_wm.object.keys(a))]},length:function(a){return _wm.object.keys(a).length}},ua:{initialize:function(){this.maps={browser:{oldsafari:{major:{'1':['/8','/1','/3'],'2':'/4','?':'/'},version:{'1.0':'/8','1.2':'/1','1.3':'/3','2.0':'/412','2.0.2':'/416','2.0.3':'/417','2.0.4':'/419','?':'/'}}},os:{windows:{version:{'ME':'4.90','NT 3.11':'NT3.51','NT 4.0':'NT4.0','2000':'NT 5.0','XP':['NT 5.1','NT 5.2'],'Vista':'NT 6.0','7':'NT 6.1','8':'NT 6.2','8.1':'NT 6.3','RT':'ARM'}}}};this.regexes={browser:[[/(opera\smini)\/((\d+)?[\w\.-]+)/i,/(opera\s[mobiletab]+).+version\/((\d+)?[\w\.-]+)/i,/(opera).+version\/((\d+)?[\w\.]+)/i,/(opera)[\/\s]+((\d+)?[\w\.]+)/i],['name','version','major'],[/\s(opr)\/((\d+)?[\w\.]+)/i],[['name','Opera'],'version','major'],[/(kindle)\/((\d+)?[\w\.]+)/i,/(lunascape|maxthon|netfront|jasmine|blazer)[\/\s]?((\d+)?[\w\.]+)*/i,/(avant\s|iemobile|slim|baidu)(?:browser)?[\/\s]?((\d+)?[\w\.]*)/i,/(?:ms|\()(ie)\s((\d+)?[\w\.]+)/i,/(rekonq)((?:\/)[\w\.]+)*/i,/(chromium|flock|rockmelt|midori|epiphany|silk|skyfire|ovibrowser|bolt|iron)\/((\d+)?[\w\.-]+)/i],['name','version','major'],[/(trident).+rv[:\s]((\d+)?[\w\.]+).+like\sgecko/i],[['name','IE'],'version','major'],[/(yabrowser)\/((\d+)?[\w\.]+)/i],[['name','Yandex'],'version','major'],[/(comodo_dragon)\/((\d+)?[\w\.]+)/i],[['name',/_/g,' '],'version','major'],[/(chrome|omniweb|arora|[tizenoka]{5}\s?browser)\/v?((\d+)?[\w\.]+)/i],['name','version','major'],[/(dolfin)\/((\d+)?[\w\.]+)/i],[['name','Dolphin'],'version','major'],[/((?:android.+)crmo|crios)\/((\d+)?[\w\.]+)/i],[['name','Chrome'],'version','major'],[/version\/((\d+)?[\w\.]+).+?mobile\/\w+\s(safari)/i],['version','major',['name','Mobile Safari']],[/version\/((\d+)?[\w\.]+).+?(mobile\s?safari|safari)/i],['version','major','name'],[/webkit.+?(mobile\s?safari|safari)((\/[\w\.]+))/i],['name',['major',_wm.ua.mapper.str,_wm.ua.maps.browser.oldsafari.major],['version',_wm.ua.mapper.str,_wm.ua.maps.browser.oldsafari.version]],[/(konqueror)\/((\d+)?[\w\.]+)/i,/(webkit|khtml)\/((\d+)?[\w\.]+)/i],['name','version','major'],[/(navigator|netscape)\/((\d+)?[\w\.-]+)/i],[['name','Netscape'],'version','major'],[/(swiftfox)/i,/(icedragon|iceweasel|camino|chimera|fennec|maemo\sbrowser|minimo|conkeror)[\/\s]?((\d+)?[\w\.\+]+)/i,/(firefox|seamonkey|k-meleon|icecat|iceape|firebird|phoenix)\/((\d+)?[\w\.-]+)/i,/(mozilla)\/((\d+)?[\w\.]+).+rv\:.+gecko\/\d+/i,/(uc\s?browser|polaris|lynx|dillo|icab|doris|amaya|w3m|netsurf|qqbrowser)[\/\s]?((\d+)?[\w\.]+)/i,/(links)\s\(((\d+)?[\w\.]+)/i,/(gobrowser)\/?((\d+)?[\w\.]+)*/i,/(ice\s?browser)\/v?((\d+)?[\w\._]+)/i,/(mosaic)[\/\s]((\d+)?[\w\.]+)/i],['name','version','major']],os:[[/(windows)\snt\s6\.2;\s(arm)/i,/(windows\sphone(?:\sos)*|windows\smobile|windows)[\s\/]?([ntce\d\.\s]+\w)/i],['name',['version',_wm.ua.mapper.str,_wm.ua.maps.os.windows.version]],[/(win(?=3|9|n)|win\s9x\s)([nt\d\.]+)/i],[['name','Windows'],['version',_wm.ua.mapper.str,_wm.ua.maps.os.windows.version]],[/\((bb)(10);/i],[['name','BlackBerry'],'version'],[/(blackberry)\w*\/?([\w\.]+)*/i,/(tizen)\/([\w\.]+)/i,/(android|webos|palm\os|qnx|bada|rim\stablet\sos|meego)[\/\s-]?([\w\.]+)*/i],['name','version'],[/(symbian\s?os|symbos|s60(?=;))[\/\s-]?([\w\.]+)*/i],[['name','Symbian'],'version'],[/mozilla.+\(mobile;.+gecko.+firefox/i],[['name','Firefox OS'],'version'],[/(nintendo|playstation)\s([wids3portablevu]+)/i,/(mint)[\/\s\(]?(\w+)*/i,/(joli|[kxln]?ubuntu|debian|[open]*suse|gentoo|arch|slackware|fedora|mandriva|centos|pclinuxos|redhat|zenwalk)[\/\s-]?([\w\.-]+)*/i,/(hurd|linux)\s?([\w\.]+)*/i,/(gnu)\s?([\w\.]+)*/i],['name','version'],[/(cros)\s[\w]+\s([\w\.]+\w)/i],[['name','Chromium OS'],'version'],[/(sunos)\s?([\w\.]+\d)*/i],[['name','Solaris'],'version'],[/\s([frentopc-]{0,4}bsd|dragonfly)\s?([\w\.]+)*/i],['name','version'],[/(ip[honead]+)(?:.*os\s*([\w]+)*\slike\smac|;\sopera)/i],[['name','iOS'],['version',/_/g,'.']],[/(mac\sos\sx)\s?([\w\s\.]+\w)*/i],['name',['version',/_/g,'.']],[/(haiku)\s(\w+)/i,/(aix)\s((\d)(?=\.|\)|\s)[\w\.]*)*/i,/(macintosh|mac(?=_powerpc)|plan\s9|minix|beos|os\/2|amigaos|morphos|risc\sos)/i,/(unix)\s?([\w\.]+)*/i],['name','version']]},this.browser=this.get.browser();this.os=this.get.os()},ua:(window&&window.navigator&&window.navigator.userAgent)?window.navigator.userAgent:'',get:{browser:function(){return _wm.ua.mapper.rgx.apply(this,_wm.ua.regexes.browser)},os:function(){return _wm.ua.mapper.rgx.apply(this,_wm.ua.regexes.os)}},util:{has:function(a,b){return b.toLowerCase().indexOf(a.toLowerCase())!==-1},lowerize:function(a){return a.toLowerCase()}},mapper:{rgx:function(){for(var a,i=0,j,k,p,q,matches,match,args=arguments;i<args.length;i+=2){var b=args[i],props=args[i+1];if(typeof(a)==='undefined'){a={};for(p in props){q=props[p];if(typeof(q)==='object'){a[q[0]]=undefined}else{a[q]=undefined}}}for(j=k=0;j<b.length;j++){matches=b[j].exec(_wm.ua.ua);if(!!matches){for(p=0;p<props.length;p++){match=matches[++k];q=props[p];if(typeof(q)==='object'&&q.length>0){if(q.length==2){if(typeof(q[1])=='function'){a[q[0]]=q[1].call(this,match)}else{a[q[0]]=q[1]}}else if(q.length==3){if(typeof(q[1])==='function'&&!(q[1].exec&&q[1].test)){a[q[0]]=match?q[1].call(this,match,q[2]):undefined}else{a[q[0]]=match?match.replace(q[1],q[2]):undefined}}else if(q.length==4){a[q[0]]=match?q[3].call(this,match.replace(q[1],q[2])):undefined}}else{a[q]=match?match:undefined}}break}}if(!!matches)break}return a},str:function(a,b){for(var i in b){if(typeof(b[i])==='object'&&b[i].length>0){for(var j=0;j<b[i].length;j++){if(_wm.ua.util.has(b[i][j],a)){return(i==='?')?undefined:i}}}else if(_wm.ua.util.has(b[i],a)){return(i==='?')?undefined:i}}return a}}},cookie:{get:function(a,b){var c=new Date();c.setTime(c.getTime());var d=new Date(c.getTime()+(1000*60*60*b)).toGMTString();var e=document.cookie.split(';');var f='';var g='';var h=[0,d];for(var i=0;i<e.length;i++){f=e[i].split('=');g=f[0].replace(/^\s+|\s+$/g,'');if(g==a){b_cookie_found=true;if(f.length>1){h=unescape(f[1]).split('|');if(h.length==1)h[1]=d}return h}f=null;g=''}return h},set:function(a,b,c){document.cookie=a+'='+escape(b+'|'+c)+';expires='+c+';path=/'}},listener:{events:[],add:function(a,b,c,e){if(e==undefined)e=true;var d='on'+b;if(typeof a.addEventListener!='undefined')a.addEventListener(b,c,e);else if(typeof a.attachEvent!='undefined')a.attachEvent(d,c);else{if(typeof a[d]!='function')a[d]=c;else{var e=a[d];a['old_'+d]=e;a[d]=function(){e();return c()}}}_wm.listener.events.push(arguments)},remove:function(a,b,c,e){if(e==undefined)e=true;var d='on'+b;if(typeof a.removeEventListener!='undefined')a.removeEventListener(b,c,e);else if(typeof a.detachEvent!='undefined')a.detachEvent(d,c);else{if(typeof a['old_'+d]!='function')a[d]=null;else a[d]=a['old_'+d]}outer:for(var i=0;i<_wm.listener.events.length;i++){inner:for(var j=0;j<_wm.listener.events[i].length;j++){if(_wm.listener.events[i][j]!==arguments[j])continue outer}_wm.listener.events=_wm.listener.events.slice(0,i).concat(_wm.listener.events.slice(i+1));break outer}},clear:function(){while(_wm.listener.events.length>0)_wm.listener.remove.apply(undefined,_wm.listener.events[0])}},format:{},random:function(){return Math.floor(Math.random()*1000001)}};_wm.initialize();_wm.format.popunder={settings:typeof _wm_settings==='object'&&_wm_settings.popunder||false,config:'width='+screen.width+', height='+screen.height+',resizable=no,toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no,scrollbars=yes',isBinded:false,isTriggered:false,trigger_stack:[],initialize:function(){if(!_wm.format.popunder.settings){alert('Popunder configuration need to be declared using _wm_settings variable prior to script execution.');return}var a=_wm.cookie.get(_wm.format.popunder.settings.cookie,_wm.format.popunder.settings.hours);this.cookie={};this.cookie.times=!isNaN(Number(a[0]))?Number(a[0]):0;this.cookie.expires=!isNaN(Date.parse(a[1]))?a[1]:new Date().toGMTString();if(_wm.format.popunder.settings.fastbind)_wm.format.popunder.handler.bind();else{if(document.readyState=='complete')_wm.format.popunder.handler.bind();else{_wm.listener.add(document,'DOMContentLoaded',function(){_wm.listener.remove(document,'DOMContentLoaded');_wm.format.popunder.handler.bind()});_wm.listener.add(document,'onreadystatechange',function(){if(document.readyState=='complete'){_wm.listener.remove(document,'onreadystatechange');_wm.format.popunder.handler.bind()}});_wm.listener.add(window,'load',_wm.format.popunder.handler.bind)}}},url:function(){var a=_wm.format.popunder.settings.url;if(typeof a=='string')return a;if(_wm.array.is_array(a))return _wm.array.random_value(a);if((_wm.object.is_object(a)&&!_wm.format.popunder.settings.hours))return _wm.object.random_value(a);if(_wm.object.is_object(a)){if(a[_wm.format.popunder.cookie.times]!=undefined)return a[_wm.format.popunder.cookie.times];else return _wm.object.random_value(a)}return null},handler:{bind:function(){if(_wm.format.popunder.isBinded)return;_wm.format.popunder.isBinded=true;if(_wm.format.popunder.cookie.times>=_wm.format.popunder.settings.times&&_wm.format.popunder.settings.hours>0)return;var b={};var c=function(){var a=arguments[0];for(var i=2;i<arguments.length;i++){if(i%2)arguments[i]=arguments[i]+'.0';if(!a.hasOwnProperty(arguments[i])&&i<arguments.length-1)a[arguments[i]]={};if(i==arguments.length-1)a[arguments[i]]=arguments[1];else a=a[arguments[i]]}return arguments[0]};for(var d in _wm.format.popunder.callback.binder){if(!_wm.format.popunder.callback.binder.hasOwnProperty(d))continue;var e=_wm.format.popunder.callback.binder[d];var f=d.split(',');for(var g in f){if(!f.hasOwnProperty(g))continue;var h=f[g].split(':');var j=h.length==1?['all',0].concat(h[0].split('_')):(h[0].indexOf('_')!=-1?h[0].split('_'):h[0].split('_').concat([0])).concat(h[1].split('_'));if(j.length==3)j.push(0);b=c.apply(null,[b,e].concat(j))}}b=_wm.object.sort(b,true,true);var k={};var l=[_wm.ua.os.name.toLowerCase().split(' ').shift(),parseInt(_wm.ua.os.version)||0,_wm.ua.browser.name.toLowerCase().split(' ').shift(),parseInt(_wm.ua.browser.major)||0];var m=[],trace_values=[];var n=b;for(var i=0;i>=0&&i<l.length;i++){var o=(trace_values.length>0?trace_values.join(':')+':':'')+''+i;if(k[o]){var p=k[o]}else{var p=new _wm.object.iterator(n);k[o]=p}var q=false;while(p.hasNext()){var r=p.next();if((i%2&&r[0]<=parseFloat(l[i]))||(i%2==0&&(r[0]==l[i])||r[0]==='all')){q=r[0];break}}if(q){m.push(n);trace_values.push(q);n=n[q]}else{trace_values.pop();n=m.pop();i-=2}}if(typeof n==='function')n()},trigger:function(e){if(_wm.ua.browser.name.toLowerCase()!=='ie'||_wm.ua.browser.major>8)e.stopImmediatePropagation();_wm.listener.clear();if(!_wm.format.popunder.registerTrigger())return;var a;while(a=_wm.format.popunder.trigger_stack.shift())_wm.format.popunder.callback.trigger[a.shift()].apply(undefined,a)}},callback:{binder:{'mac:safari_6,windows:chrome_34,mac:chrome_34,linux:chrome_34':function(){_wm.format.popunder.trigger_stack.push(['tab_trigger']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'windows:chrome_31,mac:chrome_31,linux:chrome_31':function(){_wm.format.popunder.trigger_stack.push(['flash_trigger']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'windows:chrome_28,mac:chrome_28,linux:chrome_28':function(){_wm.format.popunder.trigger_stack.push(['triple_trigger']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'firefox_12,chrome_21':function(){_wm.format.popunder.trigger_stack.push(['double_trigger']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'explorer':function(){_wm.format.popunder.trigger_stack.push(['single_delay']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'android:all,ios:all':function(){_wm.format.popunder.trigger_stack.push(['single']);_wm.listener.add(document,'touchend',_wm.format.popunder.handler.trigger);_wm.listener.add(document,'touchcancel',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'windows:iemobile':function(){_wm.format.popunder.trigger_stack.push(['single']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'all':function(){_wm.format.popunder.trigger_stack.push(['single']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()}},trigger:{flash_trigger:function(){var d=document.createElement('div');document.body.appendChild(d);d.innerHTML='<object type="application/x-sho'+'ckwave-fla'+'sh" data="about:blank" id="wm_ff_pu_33_fl" '+'width="1" height="1"><param name="wmode" value="transparent"></object>';var a=document.getElementById('wm_ff_pu_33_fl');a.focus();a.style.display='none';window.open(_wm.format.popunder.url(),'pu_'+_wm.random(),_wm.format.popunder.config);window.open('').close()},tab_trigger:function(){var a=document.createElement('a');a.href=_wm.format.popunder.url();a.setAttribute('target','_blank');top.window.document.body.appendChild(a);var e=document.createEvent('MouseEvents');e.initMouseEvent('click',true,true,window,0,0,0,0,0,true,false,false,true,0,null);a.dispatchEvent(e)},triple_trigger:function(){window.open('javascript:window.focus()','_self');var w=window.open('about:blank','pu_'+_wm.random(),_wm.format.popunder.config);var a=document.createElement('a');a.setAttribute('href','data:text/html,<scr'+'ipt>window.close();</scr'+'ipt>');a.style.display='none';document.body.appendChild(a);var e=document.createEvent('MouseEvents');e.initMouseEvent('click',true,true,window,0,0,0,0,0,true,false,false,true,0,null);a.dispatchEvent(e);document.body.removeChild(a);w.document.open().write('<scr'+'ipt type="text/javascript">window.location="'+_wm.format.popunder.url()+'";<\/scr'+'ipt>');w.document.close()},double_trigger:function(){var w=window.open(_wm.format.popunder.url(),'pu_'+_wm.random(),_wm.format.popunder.config);if(w){w.blur();try{var b=w.window.open('about:blank');b.close()}catch(i){}if(_wm.ua.browser=='Firefox')window.showModalDialog("javascript:window.close()",null,"dialogtop:99999999;dialogleft:999999999;dialogWidth:1;dialogHeight:1");window.focus()}},single_delay:function(){var w=window.open(_wm.format.popunder.url(),'pu_'+_wm.random(),_wm.format.popunder.config);window.setTimeout(window.focus,750);window.setTimeout(window.focus,850);if(w)w.blur()},single:function(a){var w=window.open(_wm.format.popunder.url(),'pu_'+_wm.random(),_wm.format.popunder.config);if(w){w.blur();window.focus()}},}},occupy:function(a){if(!a){a=['mousedown','mouseup']}for(var i=0;i<a.length;i++){_wm.listener.add(document,a[i],function(e){if(_wm.ua.browser.name.toLowerCase()!=='ie'||_wm.ua.browser.major>8)e.stopImmediatePropagation()})}},registerTrigger:function(){if(_wm.format.popunder.isTriggered)return false;_wm.format.popunder.isTriggered=true;if(_wm.format.popunder.settings.hours>0)_wm.cookie.set(_wm.format.popunder.settings.cookie,++_wm.format.popunder.cookie.times,_wm.format.popunder.cookie.expires);return true}};(function(){_wm.format.popunder.initialize()})();
+		</script>
+	</body>
+</html>
